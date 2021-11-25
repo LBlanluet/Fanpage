@@ -20,8 +20,6 @@ p {
     font-size: 100%;
     margin-left: 10%;
     margin-right: 10%;
-    animation-duration: 3s;
-    animation-name: animation;
 }
 a{
     font-size: 100%;
@@ -46,18 +44,21 @@ div {
     text-align: center;
     text-decoration: none;
 }
+article {
+    animation-duration: 3s;
+    animation-name: animation;
+}
 
-/*
+/*spécifique*/
 @keyframes animation {
     from {
-      margin-left: 100%;
+      margin-top: 100%;
     }
   
     to {
-    margin-left: 15%;
+    margin-top: 0%;
     }
   }
-  */
 .centre{
     display: block;
     margin-left: 33%;
