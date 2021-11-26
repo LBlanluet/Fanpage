@@ -76,6 +76,7 @@ margin-right: 10%;
     margin-left: 30%;
     margin-right: 30%;
     width: 50%;
+    font-size: 150%;
 }
 .menu{
     list-style: none;
@@ -126,6 +127,9 @@ a:hover{
     flex-direction: row;
     flex: 1;
 }
+.chant{
+    font-size: 150%;
+}
 
 @media(orientation: landscape)
 {
@@ -152,6 +156,9 @@ img{
 }
 article p{
     text-align: justify;
+}
+.chant{
+    font-size: 100%;
 }
 .colonne{
     display: grid;
