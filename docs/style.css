@@ -80,8 +80,8 @@ margin-right: 10%;
 @media(max-width: 400px)
 {
 img{
-    width: 20%;
-    height: 20%;
+    width: 50%;
+    height: 50%;
 }
 .menu {
     list-style: none;
