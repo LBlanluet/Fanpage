@@ -44,6 +44,7 @@ iframe{
 div {
     text-align: center;
     text-decoration: none;
+    font-size: 100%;
 }
 article {
     animation-duration: 3s;
