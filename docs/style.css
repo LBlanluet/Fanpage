@@ -47,6 +47,7 @@ iframe{
 div {
     text-align: center;
     text-decoration: none;
+    font-size: 150%;
 }
 article {
     animation-duration: 3s;
@@ -125,11 +126,15 @@ a:hover{
     flex-direction: row;
     flex: 1;
 }
+
+@media(orientation: landscape)
+{
+div{
+    font-size: 90%;
+}
 .billet {
     font-size: 150%;
 }
-@media(orientation: landscape)
-{
 img{
     width: 25%;
     height: 25%;
