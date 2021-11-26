@@ -40,8 +40,6 @@ iframe{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
 }
 div {
     text-align: center;
@@ -85,7 +83,7 @@ margin-right: 10%;
     flex-direction: row;
     flex: 1;
 }
-p{
+article p{
     text-align: justify;
 }
 }
@@ -113,19 +111,22 @@ a:hover{
     color: khaki;
 }
 .mentionlegal{
-    padding: 1% 1% 1% 1%; 
-    border-top: 1px dashed #333333; 
-    border-right: 1px dashed #333333; 
-    border-bottom: 1px dashed #333333; 
-    border-left: 1px dashed #333333;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
 }
-.twitter{
-    margin-left: 20%;
-    padding: 1% 1% 1% 1%; 
-    border-top: 1px dashed #333333; 
-    border-right: 1px dashed #333333; 
-    border-bottom: 1px dashed #333333; 
-    border-left: 1px dashed #333333;
+.mentionlegal li{
+    text-decoration: none; 
+    color: black; 
+    padding: 0.1% 2% 0.1% 2%; 
+    border-top: 1px dashed black; 
+    border-right: 1px dashed black;  
+    border-bottom: 1px dashed black; 
+    border-left: 1px dashed black; 
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .bouton{
     text-align: center;
