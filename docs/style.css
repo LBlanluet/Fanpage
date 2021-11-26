@@ -29,6 +29,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
+    color: black; 
 }
 img{
     display: block;
@@ -94,7 +95,6 @@ article p{
     font: bold 90% Arial;
     text-decoration: none; 
     background-color: rgb(81, 134, 134); 
-    color: black; 
     padding: 2% 6% 2% 6%; 
     border-top: 1px inset #333333; 
     border-right: 1px inset #333333; 
