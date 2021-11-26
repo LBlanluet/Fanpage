@@ -128,7 +128,7 @@ a:hover{
 .billet {
     font-size: 150%;
 }
-@media(min-width: 800px)
+@media(orientation: landscape)
 {
 img{
     width: 25%;
@@ -155,9 +155,11 @@ article p{
 .parcourir{
     grid-column: 2;
     grid-row: 2;
+    border-left: 1px dashed black;
 }
 .navigation{
     grid-column: 1;
     grid-row: 2;
+    
 }
 }
