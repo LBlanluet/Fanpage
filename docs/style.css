@@ -67,6 +67,8 @@ article {
     margin-left: 33%;
     margin-right: 33%;
 }
+@media(min-width: 600px)
+{
 .menu {
     list-style: none;
     margin-left: 10%;
@@ -74,6 +76,10 @@ article {
     display: flex;
     flex-direction: row;
     flex: 1;
+}
+}
+.menu{
+    list-style: none;
 }
 .menu li{
     font: bold 90% Arial;
