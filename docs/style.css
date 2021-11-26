@@ -75,7 +75,30 @@ article {
     flex-direction: row;
     flex: 1;
 }
-.menu a{
-    color: rgb(255, 255, 255);
-    background-color: rgb(60, 60, 136);
+.menu li{
+    font: bold 90% Arial;
+    text-decoration: none; 
+    background-color: #92c5ee; 
+    color: black; 
+    padding: 2% 6% 2% 6%; 
+    border-top: 1px inset #333333; 
+    border-right: 1px inset #333333; 
+    border-bottom: 1px inset #333333; 
+    border-left: 1px inset #333333;
+    text-align: center;
+    
+}
+a:visited
+{
+    color:black;
+}
+a:hover{ 
+    color: white;
+}
+.mentionlegal{
+    padding: 1% 1% 1% 1%; 
+    border-top: 1px dashed #333333; 
+    border-right: 1px dashed #333333; 
+    border-bottom: 1px dashed #333333; 
+    border-left: 1px dashed #333333;
 }
