@@ -51,7 +51,6 @@ article {
     animation-duration: 3s;
     animation-name: animation;
 }
-
 /*spécifique*/
 @keyframes animation {
     from {
@@ -84,7 +83,7 @@ article {
 .menu li{
     font: bold 90% Arial;
     text-decoration: none; 
-    background-color: #92c5ee; 
+    background-color: rgb(81, 134, 134); 
     color: black; 
     padding: 2% 6% 2% 6%; 
     border-top: 1px inset #333333; 
@@ -99,9 +98,17 @@ a:visited
     color:black;
 }
 a:hover{ 
-    color: white;
+    color: khaki;
 }
 .mentionlegal{
+    padding: 1% 1% 1% 1%; 
+    border-top: 1px dashed #333333; 
+    border-right: 1px dashed #333333; 
+    border-bottom: 1px dashed #333333; 
+    border-left: 1px dashed #333333;
+}
+.twitter{
+    margin-left: 20%;
     padding: 1% 1% 1% 1%; 
     border-top: 1px dashed #333333; 
     border-right: 1px dashed #333333; 
